@@ -1,0 +1,150 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CV/Resume
+% LaTeX Template
+% Version 1.0 (22/04/2018)
+%
+%
+% Original author:
+% Debarpan Bose(dbose1994@gmail.com)
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{article} 
+\usepackage{graphicx} 
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[margin=0.3in]{geometry}
+\titleformat{\section} % formats the heading and has four parameters
+{\Large} % \huge\bfseries - to adjust the size of the heading and to make it bold or not
+{} % \thesection - to include numbers in the heading
+{0em} % to set the distance between the number and the heading
+{} % to type anything before the heading
+
+\titleformat{\subsection}
+{\bfseries\large}
+{}
+{0em}
+{}
+
+\titleformat{\subsubsection}
+{\small}
+{}
+{0em}
+{}
+
+\titlespacing{\section} 
+{0em}{1em}{0em}
+\titlespacing{\subsection}
+{0em}{0.5em}{0em}
+\titlespacing{\subsubsection}
+{0em}{0.2em}{0em}
+
+\renewcommand{\maketitle}{
+\begin{flushleft}
+{\huge
+\vspace{-2.5cm}
+Debarpan \textbf{Bose}\newline
+\small dbose1994@gmail.com\hspace{0.1cm}\textbar \hspace{0.1cm}(+49)15901157052\newline
+\small D.O.B - 12.05.1994\newline
+\small Nationality - Indian\newline
+\vspace{0.2cm}
+\titlerule
+}
+\end{flushleft}
+}
+
+
+
+\begin{document}
+\begin{flushright}
+\small Last updated on 22nd April 2018
+\end{flushright}
+\begin{flushright}
+\vspace{-0.1cm}
+	\fbox{\includegraphics[width=1in,height=1in,keepaspectratio]{picresume.JPG}}
+\end{flushright}
+\title{cv}
+\author{debarpan bose}
+\maketitle
+\vspace{-0.7cm}
+\begin{minipage}[t]{0.39\textwidth}
+\vspace{0.3cm}
+\section{EDUCATION}
+\subsection{HOCHSCHULE BREMERHAVEN}
+MS IN EMBEDDED SYSTEMS DESIGN\newline
+Bremerhaven Germany\newline
+Current GPA - 1.9
+\vspace{0.1cm}
+\subsection{NITMAS}
+B.TECH IN ELECTRONICS AND COMMUNICATION ENGINEERING\newline
+Grad. Aug 2016\hspace{0.1cm}\textbar \hspace{0.1cm}Kolkata, India\newline
+DGPA - 7.87 / 10.0
+\vspace{0.1cm}
+\subsection{VIVEKANANDA MISSION SCH.}
+Grad. May 2012 \textbar \hspace{0.1cm}Kolkata, India
+\vspace{0.3cm}
+\section{LINKS}
+LinkedIn://dbose94\newline
+Xing://debarpan\_bose\newline
+Quora://Debarpan-Bose-1
+\vspace{0.3cm}
+\section{COURSEWORK}
+Implementation of SPI protocol(state machine), Traffic Light Controller using Timed State Machine, Design of IP block and softcore FIR filter on FPGA, IIR and FIR filter design and calculation using MATLAB/Simulink, Filter design for an ECG signal, Implementation of FFT algorithm in Java on FPGA, Distance calculation by Acceleration sensor of a building using Atmega32 and processing the data in Matlab
+\vspace{0.3cm}
+\section{SKILLS}
+\subsection{PROGRAMMING }
+\subsubsection{LANGUAGES}
+Java $\bullet$ C $\bullet$ Matlab $\bullet$ VHDL $\bullet$ Web Applications(Servlets, XML)
+\vspace{0.2cm}
+\subsubsection{MARKUP}
+{\LaTeX} $\bullet$ HTML 
+\vspace{0.2cm} 
+\subsubsection{TOOLS}
+Eclipse $\bullet$ Matlab/Simulink $\bullet$ Xilinx Vivado $\bullet$ Arduino IDE
+Proteus $\bullet$ LTSpice
+\vspace{0.2cm}
+\subsubsection{PROTOCOLS}
+SPI $\bullet$ ${I}^2$C
+\vspace{0.2cm}
+\subsubsection{FAMILIAR}
+Android $\bullet$ Spring Framework $\bullet$ MySQL $\bullet$ Apache Maven  
+\vfill
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.58\textwidth}
+\vspace{0.3cm}
+\section{EXPERIENCE}
+\large{\textbf{BIBA}\hspace{0.1cm}\textbar \hspace{0.1cm}STUDENT RESEARCH ASSISTANT}\newline
+Mar. 2018\hspace{0.1cm}\textendash\hspace{0.1cm}Present\hspace{0.1cm}\textbar \hspace{0.1cm}Bremen Germany\newline
+Agile Virtual Testing - Harmonization of Test Environments for the purpose of optimizing the functional testing of aircraft functions using Java based web API
+\vspace{0.3cm}
+\section{TRAINING}
+\subsection{EASTERN RAILWAYS}
+Jun. 2015\hspace{0.1cm}\textendash\hspace{0.1cm}Jul. 2015\hspace{0.1cm}\textbar \hspace{0.1cm}Kolkata, India\newline
+Training to build and repair Public Amenities Systems(audio and visual) modules used in passenger trains and GPS based digital clocks used in railway platforms
+\vspace{0.1cm}
+\subsection{BHARAT SANCHAR NIGAM LIMITED}
+Dec. 2014\hspace{0.1cm}\textendash\hspace{0.1cm}Jan. 2015\hspace{0.1cm}\hspace{0.1cm}\textbar \hspace{0.1cm}Kolkata, India\newline
+Knowledge on Switching, Signaling and Routing and hands on training was given on OFC and GSM
+\vspace{0.3cm}
+\section{PROJECTS}
+\subsection{FLIGHT ANGLE CONTROL}
+$\bullet$Reduced offset by calibrating the MEMS sensor to analyze the time domain signal with disturbance and hence performed FFT to eliminate the noise using different filtering techniques.\newline
+$\bullet$PID controller was programmed for auto leveling of the quad-copter and compared between KALMAN and COMPLEMENTARY filtering technique used for our system using MATLAB.\newline
+{Hardware}: Arduino Mega 2560\newline
+{Programming/Tools}: Arduino IDE, Tera Term, MATLAB, C
+\vspace{0.1cm}
+\subsection{MICROCONTROLLER BASED FUNCTION GENERATOR}
+$\bullet$ Generated square, sine and triangular wave-forms using a crystal oscillator with a precise frequency, providing high flexibility and reducing cost and circuit complexity used in typical function generators. \newline
+{Hardware}: AT89C51\newline
+{Programming/Tools}: Proteus, C
+\vspace{0.3cm}
+\section{LANGUAGES}
+English:    Fluent(IELTS - 7.5)\newline
+German:  Negotiable(Deutsch A2 level Proficiency)\newline
+Bengali:   Mother Tongue\newline
+Hindi:      Proficient   
+\end{minipage}
+\end{document}
